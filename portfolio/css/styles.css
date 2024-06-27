@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --main-color:purple; 
+    --black: #222;
+    --white:#fff;
+    --light-black: #777;
+    --dark-bg:rgba(0,0,0,.7);
+    --light-bg:#eee;
+    --border: 1re solid var(--black);
+    --box-shadow:0.5 rem 1 rem rgba(0,0,0,.1);
+    --text-shadow:0.5 rem 3 rem rgba(0,0,0,.3);
+}
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+}
+html::-webkit-scrollbar{
+width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+section{
+
+    padding: 5rem 10%;
+}
+.header{
+    position:sticky;
+    top:0; 
+    left:0;
+    right:0;
+    z-index:1000;
+    background-color: var(--white);
+    display:flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*box-shadow:var(--box-shadow) !important;*/
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo{
+    font-size: 2.5rem;
+    color: rgb(7, 2, 57);
+}
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: rgb(2, 50, 45);
+}
+.header .navbar a:hover{
+background-color: rgb(154, 237, 245);
+}
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+.service .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minimax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+/**/
+/*styling footer*/
+.footer{
+background: url(./blue.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 2rem;
+}  
+.footer .box-container .box h3{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.footer .box-container .box a{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+.footer .box-container .box a i{
+    color: rgb(155, 246, 234);
+    padding-right: 4rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+.footer .credit{
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: .1rem solid white;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer .credit span{
+    color: rgb(144, 239, 248);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media(max-width:1200px){
+    section{
+        padding:3rem 5%;
+    }
+}
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    section{
+        padding:3rem 2rem
+    }
+}
+@media (max-width:768px)
+{
+    #menu-btn{
+        display: inline-block;
+        transition: .2s linear;
+    }
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+.header .navbar{
+    position: absolute;
+    top: 99%; left: 0; right: 0;
+    background-color: whitesmoke;
+    border-top: var(--border);
+    padding: 2rem;
+    transition: .2s linear;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.header .navbar .active{
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.header .navbar a{
+    display: block;
+    margin: 2rem;
+    text-align: center;
+}
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}

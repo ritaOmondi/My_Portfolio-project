@@ -36,6 +36,12 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 5rem 10%;
 }
+@keyframes fadeIn{
+    0%{
+        transform: scale(.2);
+        opacity: 0;
+    }
+}
 .btn{
     display: inline-block;
     background-color: black;
@@ -104,6 +110,10 @@ background-color: rgb(154, 237, 245);
 }
 .home .slide .content{
    width: 85rem; 
+   display: none;
+}
+.home .swiper-slide-active .content{
+    display: inline-block;
 }
 .home .slide .content span{
     display:block;
@@ -111,6 +121,7 @@ background-color: rgb(154, 237, 245);
     color: rgb(214, 251, 9);
     padding-top: 4rem;
     font-weight: bold;
+    animation:fadeIn .2s linear backwards .2s;
 }
 .home .slide .content h3{
     font-size: 4vw;
@@ -119,6 +130,33 @@ background-color: rgb(154, 237, 245);
     line-height: 1;
     text-shadow: var(--text-shadow);
     padding: 1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+.home .slide .content .btn{
+    animation: fadeIn .2s linear backwards .6s;
+}
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top:inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 6rem;
+    width: 7rem;
+    background: #f1f6f1;
+    color: black;
+}
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background: purple;
+    color: white;
+}
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 2rem;
+}
+.home .swiper-button-prev{
+    right: 7rem;
 }
 
 
@@ -144,6 +182,42 @@ background-color: rgb(154, 237, 245);
 .services .box-container .box img{
     height: 7rem;
 }
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-about .image{
+    flex: 1 1 41rem;
+}
+.home-about .image img{
+    width: 100%;
+    border-radius: 35px;
+}
+.home-about .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+.home-about .content h3{
+    font-size: 3rem;
+    color: #222;
+}
+.home-about .content p{
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: #222;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*styling footer*/
@@ -232,6 +306,9 @@ background-position: center;
     }
     section{
         padding:3rem 2rem
+    }
+    .home .slide .content h3{
+        font-size: 10vw;
     }
 }
 @media (max-width:768px)

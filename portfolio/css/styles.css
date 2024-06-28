@@ -34,9 +34,29 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
 section{
-
     padding: 5rem 10%;
 }
+.btn{
+    display: inline-block;
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: purple;
+
+}
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: black;
+    }
 .header{
     position:sticky;
     top:0; 
@@ -69,13 +89,63 @@ background-color: rgb(154, 237, 245);
     color: black;
     display: none;
 }
-.service .box-container{
+/*homepage styling*/
+.home{
+    padding: 0;
+}
+.home .slide{
+    text-align: center;
+    padding: 2rem;
     display: flex;
-    grid-template-columns: repeat(auto-fit,minimax(16rem, 1fr));
-    gap: 1.5rem;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+.home .slide .content{
+   width: 85rem; 
+}
+.home .slide .content span{
+    display:block;
+    font-size: 2.5rem;
+    color: rgb(214, 251, 9);
+    padding-top: 4rem;
+    font-weight: bold;
+}
+.home .slide .content h3{
+    font-size: 4vw;
+    color: rgb(9, 18, 35);
+    text-decoration: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
 }
 
-/**/
+
+.services .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minimax(16rem, 1fr));
+    gap: 2rem;
+}
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgb(193, 5, 193);
+    border-radius: 15px;
+}
+.services .box-container .box h3{
+    color: #f0e6e6;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.services .box-container .box:hover{
+    background: rgb(215, 238, 40);
+}
+.services .box-container .box img{
+    height: 7rem;
+}
+
+
 /*styling footer*/
 .footer{
 background: url(./blue.jpg) no-repeat;
@@ -194,6 +264,9 @@ background-position: center;
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+    .heading-title{
+        font-size: 3.5rem;
     }
     
 }

@@ -22,14 +22,14 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">comfort Corners</a>
+   <a href="home.php" class="logo">comfort Corners</a>
 
    <nav class="navbar">
-      <a href="home.html">home</a>
-      <a href="about.html">about</a>
-      <a href="package.html">Activity</a>
-      <a href="book.html">book</a>
-      <a href="contact.html">Contact</a>
+      <a href="home.php">home</a>
+      <a href="about.php">about</a>
+      <a href="package.php">Activity</a>
+      <a href="book.php">book</a>
+      <a href="contact.php">Contact</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>

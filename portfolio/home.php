@@ -22,14 +22,14 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">Comfort Corners</a>
+   <a href="home.php" class="logo">Comfort Corners</a>
 
    <nav class="navbar">
-      <a href="home.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="package.html">Activity</a>
-      <a href="book.html">Book</a>
-      <a href="contact.html">Contact</a>
+      <a href="home.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="package.php">Activity</a>
+      <a href="book.php">Book</a>
+      <a href="contact.php">Contact</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -50,7 +50,7 @@
             <div class="content">
                <span>play,explore, discover</span>
                <h3>fun-fusion moments</h3>
-               <a href="package.html" class="btn">discover more</a>
+               <a href="package.php" class="btn">discover more</a>
             </div>
          </div>
 
@@ -58,7 +58,7 @@
             <div class="content">
                <span>play, explore, discover</span>
                <h3>Fun-tastic playing areas</h3>
-               <a href="package.html" class="btn">discover more</a>
+               <a href="package.php" class="btn">discover more</a>
             </div>
          </div>
 
@@ -66,7 +66,7 @@
             <div class="content">
                <span>play,explore, discover</span>
                <h3>outdoor activities</h3>
-               <a href="package.html" class="btn">discover more</a>
+               <a href="package.php" class="btn">discover more</a>
             </div>
          </div>
          
@@ -138,7 +138,7 @@
       <p>Comfort Corners is web application that connects
          parents with safe playing grounds for their gems in localities around them
         The web app allows caregivers to identify various activities suitable for the development of their children, whether indoor activities or outdoor activities.</p>
-      <a href="about.html" class="btn">read more</a>
+      <a href="about.php" class="btn">read more</a>
    </div>
 
 </section>
@@ -160,7 +160,7 @@
          <div class="content">
             <h3>Kids City</h3>
             <p>The playing area at Kids' City is a vibrant and engaging space designed to inspire play, exploration, and discovery for children of all ages. Spread over a spacious, safe, and well-maintained ground, this area is divided into various zones, each catering to different interests and activities.</p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
          </div>
       </div>
 
@@ -173,7 +173,7 @@
             <p>Fun-Fusion Park is a lively, colorful, and inviting space designed to delight children and encourage active play. Among the various attractions, the centerpiece is an impressive bouncing castle, which promises endless fun and excitement for kids of all ages.
 
             </p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
          </div>
       </div>
       
@@ -186,13 +186,13 @@
             <p>Provides a  colorful, and inviting space designed to delight children and encourage active play. Among the various attractions, the centerpiece is an impressive bouncing castle, which promises endless fun and excitement for kids of all ages.
 
             </p>
-            <a href="book.html" class="btn">book now</a>
+            <a href="book.php" class="btn">book now</a>
          </div>
       </div>
 
    </div>
 
-   <div class="load-more"> <a href="package.html" class="btn">load more</a> </div>
+   <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
 
 </section>
 
@@ -208,11 +208,11 @@
    <div class="box-container">
        <div class="box">
            <h3>Quick Links</h3>
-           <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
-           <a href="about.html"><i class="fas fa-angle-right"></i>About</a>
-           <a href="package.html"><i class="fas fa-angle-right"></i>Activities</a>
-           <a href="book.html"><i class="fas fa-angle-right"></i>Book</a>
-           <a href="contact.html"><i class="fas fa-angle-right"></i>Contact</a>
+           <a href="home.php"><i class="fas fa-angle-right"></i>Home</a>
+           <a href="about.php"><i class="fas fa-angle-right"></i>About</a>
+           <a href="package.php"><i class="fas fa-angle-right"></i>Activities</a>
+           <a href="book.php"><i class="fas fa-angle-right"></i>Book</a>
+           <a href="contact.php"><i class="fas fa-angle-right"></i>Contact</a>
        </div>
        <div class="box">
            <h3>Extra Links</h3>

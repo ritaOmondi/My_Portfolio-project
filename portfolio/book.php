@@ -48,7 +48,7 @@
 
    <h1 class="heading-title">Make A Reservation</h1>
 
-   <form action="" method="post" class="book-form">
+   <form action="connection.php" method="post" class="book-form">
 
       <div class="flex">
          <div class="inputBox">
@@ -68,21 +68,21 @@
             <input type="text" maxlength="50" placeholder="enter your address" name="address">
          </div>
          <div class="inputBox">
-            <span>where to :</span>
-            <input type="text" placeholder="place you want to visit" name="location" maxlength="50">
-         </div>
-         <div class="inputBox">
             <span>how many :</span>
-            <input type="number" min="1" max="99" maxlength="2" placeholder="number of guests" name="guests">
+            <input type="number" min="1" max="99" maxlength="2" placeholder="number of guests" name="guest">
          </div>
          <div class="inputBox">
-            <span>arrivals :</span>
-            <input type="date" name="arrivals">
+            <span>Playing Area :</span>
+            <input type="text" placeholder="place you want to visit" name="destination" maxlength="50">
+         </div>
+         <!--<div class="inputBox">
+            <span>arrival :</span>
+            <input type="date" name="arrival">
          </div>
          <div class="inputBox">
             <span>leaving :</span>
             <input type="date" name="leaving">
-         </div>
+         </div> -->
       </div>
 
       <input type="submit" value="submit" class="btn" name="send">

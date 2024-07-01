@@ -14,11 +14,11 @@
         <a href="home.html" class="logo">Comfort Corners</a>
      
         <nav class="navbar">
-           <a href="home.html">Home</a>
-           <a href="about.html">About</a>
-           <a href="package.html">Activity</a>
-           <a href="book.html">Book</a>
-           <a href="contact.html">Contact</a>
+           <a href="home.php">Home</a>
+           <a href="about.php">About</a>
+           <a href="package.php">Activity</a>
+           <a href="book.php">Book</a>
+           <a href="contact.php">Contact</a>
         </nav>
      
         <div id="menu-btn" class="fas fa-bars"></div>

@@ -56,17 +56,18 @@ Expanding the Database: I want to continuously add new play areas to the databas
 Integrating with Community Organizations: Partnering with local autism support groups, disability organizations, and community centers to better reach the target audience and gather more accurate data.
 
 Enhancing the Existing Web Application: Building on the solid foundation of the current web application, I plan to introduce the following improvements:
-Interactive maps with detailed location information, including photos and virtual tours of the play areas
-A comprehensive review system, allowing users to share their experiences and rate the different accessibility features
-Booking functionality to reserve time slots at the play areas, making it easier for caregivers to plan their visits
-Integration with community organizations to keep the database up-to-date and ensure the information is reliable
-I'm excited to continue refining and expanding Comfort Corners, and I hope that my passion for this project shines through in the work I've done
 
-Based on the next steps outlined for the Comfort Corners project, here are the key algorithms and technologies you should focus on:
+1. Interactive maps with detailed location information, including photos and virtual tours of the play areas.
+2. A comprehensive review system, allowing users to share their experiences and rate the different accessibility features.
+3. Booking functionality to reserve time slots at the play areas, making it easier for caregivers to plan their visits.
+4. Integration with community organizations to keep the database up-to-date and ensure the information is reliable.
 
-Improved Search and Filtering:
-Algorithms: Implement advanced search and recommendation algorithms, such as:
-Geospatial search and filtering based on user location and radius
+
+ALGORITHM
+
+1. Improved Search and Filtering:
+ Implement advanced search and recommendation algorithms, such as:
+  Geospatial search and filtering based on user location and radius.
 Faceted search to allow users to filter by specific accessibility features and amenities
 Recommendation engine to suggest relevant play areas based on user preferences and past interactions
 Technologies: Utilize a combination of:
@@ -84,12 +85,12 @@ Technologies: Utilize the following technologies for the mobile app:
 React Native or Flutter for cross-platform development
 Google Maps SDK or Apple Maps SDK for interactive maps
 Firebase or a similar Backend-as-a-Service (BaaS) platform for push notifications, database, and authentication
-Web Application Enhancements:
+  Web Application Enhancements:
 Mapping and Visualization: Integrate an interactive mapping solution, such as Google Maps, Mapbox, or OpenStreetMap, to display detailed information about the play areas, including photos and virtual tours.
 Review System: Implement a robust review system using a database (e.g., PostgreSQL, MongoDB) to store user-generated content, and a server-side API (e.g., Node.js, Django) to handle CRUD operations.
 Booking System: Develop a booking system that allows users to reserve time slots at the play areas, potentially integrating with a calendar API (e.g., Google Calendar API, Microsoft Graph API) or a third-party booking platform.
 Technologies: Utilize the following technologies for the web application enhancements:
-Mapping APIs (e.g., Google Maps API, Mapbox API)
+  Mapping APIs (e.g., Google Maps API, Mapbox API)
 Database (e.g., PostgreSQL, MongoDB) for storing play area and review data
 Server-side API (e.g., Node.js, Django, Ruby on Rails) for handling data CRUD operations
 Calendar APIs (e.g., Google Calendar API, Microsoft Graph API) for booking functionality

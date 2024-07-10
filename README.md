@@ -44,7 +44,10 @@ Create a new branch: git checkout -b feature/your-feature-name
 Make your changes and commit them: git commit -am 'Add some feature'
 Push to the branch: git push origin feature/your-feature-name
 Submit a pull request
-Related Projects
+
+
+Relat![Screenshot (3)](https://github.com/ritaOmondi/My_Portfolio-project/assets/134580733/828b98d3-f8e0-463f-b703-cf50fa3be281)
+ed Projects
 Here are some related projects that may be of interest:
 
 Special Needs Playground Finder
